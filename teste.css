@@ -1,0 +1,66 @@
+
+body, html {
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: gray; 
+color: white;
+}
+ul { list-style: inside; padding-left: 10px; }
+a { color:blue; text-decoration: none;}
+.bar {
+background-color: 555454;
+padding:15px;
+border-top: solid 1px #cdcdcd;
+border-bottom: solid 1px #cdcdcd;
+}
+.content {
+max-width: 1440px;
+margin: auto;
+grid-gap: 3rem;
+display: grid;
+gap: 3rem;
+grid-template-areas: "sidebar main anchors";
+grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.footer {
+min-height: 100px;
+border-top: solid 1px #555454;
+text-align: center;
+line-height: 65px;
+}
+.anchors {
+border-left: solid 1px #555454;
+padding-left: 15px;
+}
+.sidebar {
+border-right: solid 1px #555454;
+}
+.fieldset ul{
+list-style: inside; padding-left: 10px;
+}
+figure {
+text-align: center;
+}
+.logo input{
+text-align: center;
+border: solid 5px 555454;
+border-radius: 100px;
+}
+ul a{
+color:black;
+}
+ul a:hover{
+color: blue;
+text-decoration: underline;
+}
+.ulesquerda{
+display: inline-block;
+width: 400px;
+}
+.uldireita{
+display: inline-block;
+
+}
